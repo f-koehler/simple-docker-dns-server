@@ -1,6 +1,8 @@
 # Simple DNS server using docker-compose and dnsmasq
 
-This repository showcases how you can easily set up a simple DNS server using  `dnsmasq` and `docker-compose`/`docker`.
+[![Docker Image](https://github.com/f-koehler/simple-docker-dns-server/actions/workflows/docker.yml/badge.svg)](https://github.com/f-koehler/simple-docker-dns-server/actions/workflows/docker.yml)
+
+This repository showcases how you can easily set up a simple DNS server using `dnsmasq` and `docker-compose`/`docker`.
 DNS entries can be added directly via the `docker-compose.yml` file, which can be easily automated (e.g. via ansible).
 
 Such a simple DNS server is ideal for internal use (e.g. at home or within a wireguard/tailscale VPN network).
